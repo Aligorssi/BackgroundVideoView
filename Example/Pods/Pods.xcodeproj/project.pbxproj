@@ -14,8 +14,6 @@
 		6E1E6AEF71B3C51CAAAD1932BF16C0BC /* Pods-backgroundVideoView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F97EF34FD4C2B0C4F950F0DDB38ADF /* Pods-backgroundVideoView_Tests-dummy.m */; };
 		736508DE09BFEA9AF0EA045B77EDE568 /* backgroundVideoView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A292E28B5706B63007A995512D64A42B /* backgroundVideoView-dummy.m */; };
 		8FA378D1FFADDE11C28E5AE42E128D18 /* Pods-backgroundVideoView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A31FFCF1203CA1C4CC0EF3892FEA275 /* Pods-backgroundVideoView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C54EF0622E88E7F005CB481 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0222E88E7F005CB481 /* .gitkeep */; };
-		9C54EF0822E88E7F005CB481 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0522E88E7F005CB481 /* .gitkeep */; };
 		9C54EF0A22E88EA3005CB481 /* BackgroundVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C54EF0922E88EA3005CB481 /* BackgroundVideoView.swift */; };
 		9C54EF0C22E891A2005CB481 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0B22E891A2005CB481 /* video1.mp4 */; };
 		9C54EF0D22E891A2005CB481 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0B22E891A2005CB481 /* video1.mp4 */; };
@@ -65,8 +63,6 @@
 		90D67CA5641554F418D211FDDC7746E9 /* Pods-backgroundVideoView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-backgroundVideoView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		90DCA998F3F3147CCCC484D8D7B93E89 /* Pods_backgroundVideoView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backgroundVideoView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A31FFCF1203CA1C4CC0EF3892FEA275 /* Pods-backgroundVideoView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-backgroundVideoView_Example-umbrella.h"; sourceTree = "<group>"; };
-		9C54EF0222E88E7F005CB481 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		9C54EF0522E88E7F005CB481 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		9C54EF0922E88EA3005CB481 /* BackgroundVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVideoView.swift; sourceTree = "<group>"; };
 		9C54EF0B22E891A2005CB481 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 		9C54EF0F22E891AD005CB481 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
@@ -187,7 +183,6 @@
 		9C54EF0122E88E7F005CB481 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9C54EF0222E88E7F005CB481 /* .gitkeep */,
 				9C54EF0922E88EA3005CB481 /* BackgroundVideoView.swift */,
 			);
 			path = Classes;
@@ -198,7 +193,6 @@
 			children = (
 				9C54EF0B22E891A2005CB481 /* video1.mp4 */,
 				9C54EF0F22E891AD005CB481 /* video2.mp4 */,
-				9C54EF0522E88E7F005CB481 /* .gitkeep */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -386,9 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C54EF0C22E891A2005CB481 /* video1.mp4 in Resources */,
-				9C54EF0622E88E7F005CB481 /* .gitkeep in Resources */,
 				9C54EF1022E891AD005CB481 /* video2.mp4 in Resources */,
-				9C54EF0822E88E7F005CB481 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
