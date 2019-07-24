@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import AVFoundation
 
-public class BackgroundVideoView1: UIView {
+public class BackgroundVideoView: UIView {
     
     var player: AVPlayer?
     var videoNames = ["video1","video2"]

@@ -17,6 +17,12 @@
 		9C54EF0622E88E7F005CB481 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0222E88E7F005CB481 /* .gitkeep */; };
 		9C54EF0822E88E7F005CB481 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0522E88E7F005CB481 /* .gitkeep */; };
 		9C54EF0A22E88EA3005CB481 /* BackgroundVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C54EF0922E88EA3005CB481 /* BackgroundVideoView.swift */; };
+		9C54EF0C22E891A2005CB481 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0B22E891A2005CB481 /* video1.mp4 */; };
+		9C54EF0D22E891A2005CB481 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0B22E891A2005CB481 /* video1.mp4 */; };
+		9C54EF0E22E891A2005CB481 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0B22E891A2005CB481 /* video1.mp4 */; };
+		9C54EF1022E891AD005CB481 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0F22E891AD005CB481 /* video2.mp4 */; };
+		9C54EF1122E891AD005CB481 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0F22E891AD005CB481 /* video2.mp4 */; };
+		9C54EF1222E891AD005CB481 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C54EF0F22E891AD005CB481 /* video2.mp4 */; };
 		B5097968292917C5C49118DDD2D6F5E8 /* Pods-backgroundVideoView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEAF676BF2C763BCD41536D5BCDAFDB3 /* Pods-backgroundVideoView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF2F3C5579AAD6C3F9C89F4327043C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +68,8 @@
 		9C54EF0222E88E7F005CB481 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		9C54EF0522E88E7F005CB481 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		9C54EF0922E88EA3005CB481 /* BackgroundVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVideoView.swift; sourceTree = "<group>"; };
+		9C54EF0B22E891A2005CB481 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		9C54EF0F22E891AD005CB481 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A292E28B5706B63007A995512D64A42B /* backgroundVideoView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "backgroundVideoView-dummy.m"; sourceTree = "<group>"; };
 		BE5FEAE1FD6F8EE052D606F656BCE398 /* backgroundVideoView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = backgroundVideoView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -188,6 +196,8 @@
 		9C54EF0422E88E7F005CB481 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				9C54EF0B22E891A2005CB481 /* video1.mp4 */,
+				9C54EF0F22E891AD005CB481 /* video2.mp4 */,
 				9C54EF0522E88E7F005CB481 /* .gitkeep */,
 			);
 			path = Assets;
@@ -375,7 +385,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C54EF0C22E891A2005CB481 /* video1.mp4 in Resources */,
 				9C54EF0622E88E7F005CB481 /* .gitkeep in Resources */,
+				9C54EF1022E891AD005CB481 /* video2.mp4 in Resources */,
 				9C54EF0822E88E7F005CB481 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +396,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C54EF1122E891AD005CB481 /* video2.mp4 in Resources */,
+				9C54EF0D22E891A2005CB481 /* video1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +405,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C54EF1222E891AD005CB481 /* video2.mp4 in Resources */,
+				9C54EF0E22E891A2005CB481 /* video1.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

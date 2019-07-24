@@ -33,9 +33,9 @@ Play given videos in the view you create. You just have to create a view using t
 
   s.source_files = 'backgroundVideoView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'backgroundVideoView' => ['backgroundVideoView/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'backgroundVideoView' => ['backgroundVideoView/Assets/*.mp4']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation', 'AVFoundation'
