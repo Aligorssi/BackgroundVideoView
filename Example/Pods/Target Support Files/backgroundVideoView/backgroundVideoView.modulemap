@@ -1,0 +1,6 @@
+framework module backgroundVideoView {
+  umbrella header "backgroundVideoView-umbrella.h"
+
+  export *
+  module * { export * }
+}

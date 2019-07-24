@@ -1,0 +1,16 @@
+PODS:
+  - backgroundVideoView (0.1.0)
+
+DEPENDENCIES:
+  - backgroundVideoView (from `../`)
+
+EXTERNAL SOURCES:
+  backgroundVideoView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  backgroundVideoView: e05f17d9d822cc5053535fab0fef404b0e2c1081
+
+PODFILE CHECKSUM: 4312ef7601046ece348a06262bf0045527e34037
+
+COCOAPODS: 1.7.5

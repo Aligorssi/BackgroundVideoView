@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		226A8B4267EC6F27D55C7AED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		226A8B4267EC6F27D55C7AED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		347684A09184E61520085F53 /* Pods_backgroundVideoView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backgroundVideoView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB4576FD09CD305F5780482 /* Pods-backgroundVideoView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backgroundVideoView_Example.debug.xcconfig"; path = "Target Support Files/Pods-backgroundVideoView_Example/Pods-backgroundVideoView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3DD79769EC185B87437006A5 /* Pods-backgroundVideoView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backgroundVideoView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-backgroundVideoView_Tests/Pods-backgroundVideoView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* backgroundVideoView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backgroundVideoView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6F7B395D217B2B2A79E01D19 /* backgroundVideoView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = backgroundVideoView.podspec; path = ../backgroundVideoView.podspec; sourceTree = "<group>"; };
+		6F7B395D217B2B2A79E01D19 /* backgroundVideoView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = backgroundVideoView.podspec; path = ../backgroundVideoView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		889EFC84211DD344DC9BCC4E /* Pods-backgroundVideoView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backgroundVideoView_Example.release.xcconfig"; path = "Target Support Files/Pods-backgroundVideoView_Example/Pods-backgroundVideoView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B26BACB5CE65E2EB53F0B3EA /* Pods_backgroundVideoView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backgroundVideoView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A7DFCF068C5129421AE25A /* Pods-backgroundVideoView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backgroundVideoView_Tests.release.xcconfig"; path = "Target Support Files/Pods-backgroundVideoView_Tests/Pods-backgroundVideoView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FCCF102BB78418B5585273DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FCCF102BB78418B5585273DF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				3DD79769EC185B87437006A5 /* Pods-backgroundVideoView_Tests.debug.xcconfig */,
 				D7A7DFCF068C5129421AE25A /* Pods-backgroundVideoView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

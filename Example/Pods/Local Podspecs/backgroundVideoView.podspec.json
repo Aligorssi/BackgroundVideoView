@@ -1,0 +1,22 @@
+{
+  "name": "backgroundVideoView",
+  "version": "0.1.0",
+  "summary": "A short description of backgroundVideoView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aligorssi/backgroundVideoView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aligorssi": "ali.gorssi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aligorssi/backgroundVideoView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "backgroundVideoView/Classes/**/*"
+}
